@@ -150,7 +150,7 @@ class DataObject(object):
               list_title='"====== '
                 '%(edit_type)s List in %(blog_url)s =========')
 
-    LIST_VIEW_KEY_MAP = dict(enter="<enter>", delete="<delete>")
+    LIST_VIEW_KEY_MAP = dict(enter="<enter>", delete="<bs>")
     CUSTOM_FIELD_KEY = "mkd_text"
 
     #Temp variables.
